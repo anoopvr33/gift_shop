@@ -1,0 +1,82 @@
+/* Wrapper ensures spacing between tables */
+.one-table-wrapper {
+  width: 100%;
+  margin-bottom: 24px; /* space between products */
+  /* overflow-x: auto; */
+}
+
+/* Single product table */
+.one-product-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Table header */
+.one-product-table thead {
+  background-color: #f5f5f5;
+}
+
+.one-product-table th,
+.one-product-table td {
+  padding: 12px 14px;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+  /* white-space: nowrap; */
+}
+
+/* Product image */
+.table-img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Availability badges */
+.availability {
+  padding: 6px 10px;
+  border-radius: 14px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.availability.available {
+  background-color: #e6f7ee;
+  color: #1e7f4d;
+}
+
+.availability.out {
+  background-color: #fdecea;
+  color: #c62828;
+}
+
+/* Update button */
+.update-btn {
+  padding: 6px 14px;
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.update-btn:hover {
+  background-color: #125aa3;
+}
+
+/* Responsive handling */
+@media (max-width: 768px) {
+  .one-product-table th,
+  .one-product-table td {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .table-img {
+    width: 55px;
+    height: 55px;
+  }
+}

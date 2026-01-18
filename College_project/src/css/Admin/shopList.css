@@ -1,0 +1,36 @@
+.shop-table {
+  width: 75%;
+  margin-left: 20%;
+  border-collapse: collapse;
+  background: #fff;
+}
+.shoplist h1 {
+  margin-left: 20%;
+}
+.shop-table th,
+.shop-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.shop-table th {
+  background-color: #f4f6f8;
+  font-weight: 600;
+}
+
+.table-profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.update-btn {
+  padding: 6px 12px;
+  background-color: rgba(29, 114, 241, 1);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,71 @@
+.users-container {
+  padding: 25px;
+  font-family: Arial, sans-serif;
+}
+
+.users-container h1 {
+  margin-bottom: 20px;
+  margin-left: 20vw;
+}
+
+/* Table layout */
+.users-container .table {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-left: 20vw;
+}
+
+.users-container .table-header,
+.users-container .table-row {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  padding: 12px 15px;
+  align-items: center;
+}
+
+.users-container .table-header {
+  background: #f4f6f8;
+  font-weight: bold;
+}
+
+.users-container .table-row {
+  border-top: 1px solid #eee;
+}
+
+.users-container .user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.users-container .user-info img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+/* Status */
+.users-container .status.active {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.users-container .status.inactive {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+/* Button */
+.users-container button {
+  padding: 6px 10px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.users-container button:hover {
+  opacity: 0.9;
+}
