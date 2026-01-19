@@ -1,0 +1,78 @@
+.order-page {
+  padding: 20px;
+  width: 90vw;
+  /* margin: 50px; */
+  margin-right: 200px;
+  /* background-color: #2077fa; */
+}
+
+.order-page h2 {
+  margin-bottom: 15px;
+  /* background-color: #b00020; */
+  text-align: center;
+  color: #2077fa;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+.order-page .table-wrapper {
+  /* overflow-x: auto; */
+  margin-right: 50px;
+  /* width: 200%; */
+  margin-left: 0px;
+}
+
+.order-page .order-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  /* margin-right: 50pc; */
+}
+
+.order-page .order-table th,
+.order-page .order-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.order-table th {
+  background: #252525;
+  font-weight: 600;
+  color: white;
+}
+
+.order-page .product-cell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.order-page .product-cell img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.order-page .status {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.order-page .status.delivered {
+  background: #e6f4ea;
+  color: #137333;
+}
+
+.order-page .status.pending {
+  background: #fff4e5;
+  color: #b26a00;
+}
+
+.order-page .status.cancelled {
+  background: #fdecea;
+  color: #b00020;
+}
